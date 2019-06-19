@@ -65,10 +65,13 @@ public class HomePageTest extends TestBase{
 	
 	@Test(priority = 5)
 	public void testClickOnCurrentDate() {
-		homePage.clickOnCurrentDate("05:00PM");
+		homePage.clickOnCurrentDate("02:00PM");
 		homePageEventForm = new HomePageEventForm();
 		
 		homePageEventForm.populateForm();
+		
+		homePageEventForm.deleteEvent();
+		
 	}		
 	
 	@AfterMethod

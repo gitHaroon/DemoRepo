@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31408" started-at="2019-06-18T15:44:30Z" finished-at="2019-06-18T15:45:01Z">
+  <suite name="Default suite" duration-ms="40964" started-at="2019-06-19T08:25:19Z" finished-at="2019-06-19T08:26:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31408" started-at="2019-06-18T15:44:30Z" finished-at="2019-06-18T15:45:01Z">
+    <test name="Default test" duration-ms="40964" started-at="2019-06-19T08:25:19Z" finished-at="2019-06-19T08:26:00Z">
       <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="16548" started-at="2019-06-18T15:44:30Z" finished-at="2019-06-18T15:44:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="setUp" is-config="true" duration-ms="21082" started-at="2019-06-19T08:25:20Z" finished-at="2019-06-19T08:25:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testClickOnCurrentDate()[pri:5, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="testClickOnCurrentDate" duration-ms="14802" started-at="2019-06-18T15:44:46Z" finished-at="2019-06-18T15:45:01Z">
+        <test-method status="PASS" signature="testClickOnCurrentDate()[pri:5, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="testClickOnCurrentDate" duration-ms="19832" started-at="2019-06-19T08:25:41Z" finished-at="2019-06-19T08:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClickOnCurrentDate -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-06-18T15:45:01Z" finished-at="2019-06-18T15:45:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-19T08:26:00Z" finished-at="2019-06-19T08:26:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

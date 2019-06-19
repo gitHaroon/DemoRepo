@@ -1,5 +1,6 @@
 package com.crm.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -95,4 +96,21 @@ public class HomePageEventForm extends TestBase{
 			e.printStackTrace();
 		}			
 	}	
+	
+	public void deleteEvent() {
+		WebElement deleteButton = driver.findElement(By.xpath("//input[@value='Delete']"));
+		
+		deleteButton.click();
+		
+		driver.switchTo().alert().accept();
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
 }
