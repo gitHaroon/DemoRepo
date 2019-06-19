@@ -130,6 +130,10 @@ public class HomePage extends TestBase{
 				
 	}
 	
+	public void testMethod() {
+		System.out.println("Test Method");
+	}
+	
 	private String getCurrentDay() {
 		Calendar calendar = Calendar.getInstance(TimeZone.getDefault());
 		int todayInt = calendar.get(Calendar.DAY_OF_MONTH);
