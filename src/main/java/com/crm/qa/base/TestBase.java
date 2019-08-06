@@ -25,7 +25,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Eclipse\\HRTEST2\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\GIT\\DemoRepo\\DemoRepo\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -40,7 +40,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\HRTEST2\\FreeCRMTest\\lib\\ChromeDriver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\GIT\\DemoRepo\\DemoRepo\\lib\\ChromeDriver\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		

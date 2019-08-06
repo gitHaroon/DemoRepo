@@ -39,29 +39,29 @@ public class HomePageTest extends TestBase{
 		homePage = classicLoginPage.clickLoginBtn(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-//	@Test(priority=1)
-//	public void verifyTitle() {
-//		String title = homePage.verifyHomePageTitle();
-//		Assert.assertEquals(title, "CRMPRO");		
-//	}
-//	
-//	@Test(priority=2)
-//	public void verifyUserNameIsDisplayed() {
-//		boolean b = homePage.verifyUserName("h h");
-//		Assert.assertTrue(b);
-//	}	
-//	
-//	@Test(priority=3)
-//	public void verifyContactLink() {
-//		contactsPage = homePage.clickOnContactsLink();
-//		Assert.assertNotNull(contactsPage);
-//	}	
-//	
-//	@Test(priority=4)
-//	public void clickOnNewContactLinkTest() throws InterruptedException {
-//		contactsPage = homePage.clickOnNewContactLink();
-//		Assert.assertNotNull(contactsPage);		
-//	}	
+	@Test(priority=1)
+	public void verifyTitle() {
+		String title = homePage.verifyHomePageTitle();
+		Assert.assertEquals(title, "CRMPRO");		
+	}
+	
+	@Test(priority=2)
+	public void verifyUserNameIsDisplayed() {
+		boolean b = homePage.verifyUserName("h h");
+		Assert.assertTrue(b);
+	}	
+	
+	@Test(priority=3)
+	public void verifyContactLink() {
+		contactsPage = homePage.clickOnContactsLink();
+		Assert.assertNotNull(contactsPage);
+	}	
+	
+	@Test(priority=4)
+	public void clickOnNewContactLinkTest() throws InterruptedException {
+		contactsPage = homePage.clickOnNewContactLink();
+		Assert.assertNotNull(contactsPage);		
+	}	
 	
 	@Test(priority = 5)
 	public void testClickOnCurrentDate() {
@@ -76,7 +76,7 @@ public class HomePageTest extends TestBase{
 	
 	@AfterMethod
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 	
 }
