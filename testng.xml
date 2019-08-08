@@ -3,11 +3,11 @@
 <suite name="Suite1">
   <test thread-count="5" name="Test1">
     <classes>
-    	<class name="com.crm.qa.testcases.StartPageTest"/>
-    	<class name="com.crm.qa.testcases.LoginPageTest"/>
-    	<class name="com.crm.qa.testcases.ClassicLoginPageTest"/>
+<!--     	<class name="com.crm.qa.testcases.StartPageTest"/> -->
+<!--     	<class name="com.crm.qa.testcases.LoginPageTest"/> -->
+<!--     	<class name="com.crm.qa.testcases.ClassicLoginPageTest"/> -->
       	<class name="com.crm.qa.testcases.HomePageTest"/>
-      	<class name="com.crm.qa.testcases.ContactsPageTest"/>
+<!--       	<class name="com.crm.qa.testcases.ContactsPageTest"/> -->
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Suite1 -->
